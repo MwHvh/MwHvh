@@ -9,14 +9,21 @@
     height: 592px;
     justify-content: center;
 }
-
+.content {
+    
+    display: flex;
+    background-color: #201E1E;
+    height:  582px;
+    width: calc(896px - 20px);
+    justify-content: start;
+    flex-direction: row;
+}
 .content1 {
     display: flex;
     position: sticky;
     width: 448px;
     height: 552px;
-    justify-content: start
-    ;
+    justify-content: start;
     flex-direction: column;
 }
 .copyright{
