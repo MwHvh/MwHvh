@@ -1,0 +1,354 @@
+*{
+    margin: 0%;
+    text-decoration: none;
+}
+.container {
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 592px;
+    justify-content: center;
+}
+.content__index { 
+    display: flex;
+    
+    flex-direction: row;
+    justify-content: space-between;
+    height: 152px;
+
+}
+.content {
+    background-image: url(../Frame\ 4.png);
+    display: flex;
+    background-color: #201E1E;
+    height:  582px;
+    width: calc(896px - 20px);
+    justify-content: space-between;
+    flex-direction: column;
+}
+.content1 {
+    
+    display: flex;
+    position: sticky;
+    width: 448px;
+    height: 152px;
+    justify-content: start
+    ;
+    flex-direction: column;
+}
+.logo {
+    position: sticky;
+    display: flex;
+    width: 448px;
+    text-decoration: overline;
+    height: 117px;
+    color: #C4D129;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 24px;
+}
+.content2 {
+    
+    display: flex;
+    position: sticky;
+    width: 448px;
+    height: 152px;
+    flex-direction: column;
+}
+.header_help {
+    display: flex;
+    position: sticky;
+    width: 428px;
+    height: 150px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+.header {
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    width: 400px;
+    justify-content: space-around;
+    border-radius: 20px;
+    position: sticky;
+}
+
+.box__title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    height: 400px;
+    width: 876px;
+}
+.box__title__title {
+    display: flex;
+    justify-content: space-between;
+    height: 297px;
+    width: 799px;
+    
+    flex-direction: column;
+}
+.box__content {
+    display: flex;
+    justify-content: space-between;
+    
+    width: 800px;
+    height: 130px;
+}
+.box__content1 {
+    display: flex;
+    justify-content: space-between;
+   
+    width: 800px;
+    height: 130px;
+}
+ /*Блок 1 */
+.box__title__content {
+    display: flex;
+    border-radius: 10px;
+    justify-content: start;
+    align-items: center;
+    background-color: #201E1E;
+    height: 130px;
+    width: 384px;
+}
+.help__title {
+    width: 10px;
+}
+ 
+.box__title__title__content {
+    color: #C4D129;
+    text-decoration:dotted;
+    display: flex;
+    background-color: black;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 112px;
+    border-radius: 20px;
+}
+.box__title__content_2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    height: 100px;
+}
+.contact__help {
+    display: flex;
+    justify-content: center;
+    height: 20px;
+}
+.contact {
+    display: flex;
+    background-color: black;
+    height: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 5px;
+}
+
+.box__title__title__text {
+    color: #C4D129;
+    display: flex;
+}
+.help__title1 {
+    width: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Блок 2 */
+
+.box__title__content1 {
+    display: flex;
+    border-radius: 10px;
+    justify-content: start;
+    align-items: center;
+    background-color: #201E1E;
+    height: 130px;
+    width: 384px;
+}
+.help__title {
+    width: 40px;
+}
+ 
+.box__title__title__content1 {
+    color: #C4D129;
+    text-decoration:dotted;
+    display: flex;
+    background-color: black;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 245px;
+    height: 112px;
+    border-radius: 20px;
+}
+.box__title__content_21 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    height: 100px;
+}
+.contact__help1 {
+    display: flex;
+    justify-content: center;
+    height: 20px;
+}
+.contact1 {
+    display: flex;
+    background-color: black;
+    height: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 5px;
+}
+
+.box__title__title__text1 {
+    color: #C4D129;
+    display: flex;
+}
+.help__title11 {
+    width: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Блок 3 2 строка */
+.box__title__content12 {
+    display: flex;
+    border-radius: 10px;
+    justify-content: start;
+    align-items: center;
+    background-color: #201E1E;
+    height: 130px;
+    width: 384px;
+}
+.help__title {
+    width: 10px;
+}
+ 
+.box__title__title__content12 {
+    color: #C4D129;
+    text-decoration:dotted;
+    display: flex;
+    background-color: black;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    height: 112px;
+    border-radius: 20px;
+}
+.box__title__content_212 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    height: 100px;
+}
+.contact__help12 {
+    display: flex;
+    justify-content: center;
+    height: 20px;
+}
+.contact12 {
+    display: flex;
+    background-color: black;
+    height: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 5px;
+}
+
+.box__title__title__text12 {
+    color: #C4D129;
+    display: flex;
+}
+.help__title112 {
+    width: 10px;
+}
+
+
+
+/* Блок 3 */
+.box__title__content123 {
+    display: flex;
+    border-radius: 10px;
+    justify-content: start;
+    align-items: center;
+    background-color: #201E1E;
+    height: 130px;
+    width: 384px;
+}
+.help__title {
+    width: 10px;
+}
+ 
+.box__title__title__content123 {
+    color: #C4D129;
+    text-decoration:dotted;
+    display: flex;
+    background-color: black;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 110px;
+    height: 112px;
+    border-radius: 20px;
+}
+.box__title__content_2123 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    height: 100px;
+}
+.contact__help123 {
+    display: flex;
+    justify-content: center;
+    height: 20px;
+}
+.contact123 {
+    display: flex;
+    background-color: black;
+    height: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 5px;
+}
+
+.box__title__title__text123 {
+    color: #C4D129;
+    display: flex;
+}
+.help__title1123 {
+    width: 10px;
+}
