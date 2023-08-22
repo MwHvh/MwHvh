@@ -20,11 +20,11 @@
 .content {
     background-image: url(../Frame\ 4.png);
     display: flex;
-    
+    background-color: #201E1E;
     height:  582px;
     width: calc(896px - 20px);
-    justify-content: space-between;
-    flex-direction: column;
+    justify-content: start;
+    flex-direction: row;
 }
 .content1 {
     
